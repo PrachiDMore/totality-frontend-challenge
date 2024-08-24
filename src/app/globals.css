@@ -2,32 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+::-webkit-scrollbar{
+  width: 0px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+.my-image-class{
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  border-radius: 16px;
+  clip-path: path(
+  "M16 1.25H440.5C449.06 1.25 456 8.18959 456 16.75V52.5C456 61.6127 463.387 69 472.5 69H567.13C575.69 69 582.63 75.9396 582.63 84.5V373.5C582.63 382.06 575.69 389 567.13 389H16C7.43957 389 0.5 382.06 0.5 373.5V16.75C0.5 8.18958 7.43959 1.25 16 1.25Z"
+);
 }
