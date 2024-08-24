@@ -21,7 +21,7 @@ export default function Home() {
             <div className="w-full flex gap-7  justify-between items-center">
               <div className="w-8/12 flex flex-col gap-2">
                 <p className="text-xl font-medium">Start your journy with us!</p>
-                <p className="text-sm">Whether you're looking for a cozy apartment in the city or a luxurious beachside villa, we've got you covered.</p>
+                <p className="text-sm">Whether you&apos;re looking for a cozy apartment in the city or a luxurious beachside villa, we&apos;ve got you covered.</p>
               </div>
               <div className="w-4/12"><Button text={"Get Started"} icon={<IoIosArrowRoundForward className="text-white w-7 h-7" />} /></div>
             </div>
@@ -49,7 +49,7 @@ export default function Home() {
         <div className="grid gap-5">
           <div className="flex gap-44 items-center">
             <h1 className="text-4xl text-accentGreen font-semibold">Discover Your Ideal Property with Us</h1>
-            <p className="text-sm">Whether you're searching for a cozy city apartment, a serene countryside retreat, or a luxurious beachfront villa, our curated selection ensures you'll find the perfect place to call home.</p>
+            <p className="text-sm">Whether you&apos;re searching for a cozy city apartment, a serene countryside retreat, or a luxurious beachfront villa, our curated selection ensures you&apos;ll find the perfect place to call home.</p>
           </div>
           <div><Button className={"bg-bgWhite text-accentGreen"} text={"View Properties"} icon={<IoIosArrowRoundForward className="text-accentGreen w-7 h-7" />} /></div>
         </div>
@@ -116,8 +116,8 @@ export default function Home() {
 
           <div className="w-1/2">
             <div className="py-9 border-b-2 border-lightGray/20">
-              <h1 className="text-2xl text-accentGreen font-semibold">"Perfect Urban Getaway"</h1>
-              <p className="">"Staying at the Cozy Urban Retreat was an absolute delight! The location was perfect, right in the middle of everything San Francisco has to offer. The apartment was clean, modern, and had all the amenities we needed. We'll definitely be back!"</p>
+              <h1 className="text-2xl text-accentGreen font-semibold">&quot;Perfect Urban Getaway&quot;</h1>
+              <p className="">&quot;Staying at the Cozy Urban Retreat was an absolute delight! The location was perfect, right in the middle of everything San Francisco has to offer. The apartment was clean, modern, and had all the amenities we needed. We&apos;ll definitely be back!&quot;</p>
             </div>
             <div className="pt-9 flex gap-3 items-center">
               <img className="w-12 h-12 object-cover rounded-full" src="./assets/profile.jpg" />
