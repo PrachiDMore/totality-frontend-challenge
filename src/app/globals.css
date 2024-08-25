@@ -2,14 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0px;
 }
 
-.my-image-class{
+.my-image-class {
 
   border-radius: 16px;
-  clip-path: path(
-  "M16 1.25H440.5C449.06 1.25 456 8.18959 456 16.75V52.5C456 61.6127 463.387 69 472.5 69H567.13C575.69 69 582.63 75.9396 582.63 84.5V373.5C582.63 382.06 575.69 389 567.13 389H16C7.43957 389 0.5 382.06 0.5 373.5V16.75C0.5 8.18958 7.43959 1.25 16 1.25Z"
-);
+  clip-path: path("M16 1.25H440.5C449.06 1.25 456 8.18959 456 16.75V52.5C456 61.6127 463.387 69 472.5 69H567.13C575.69 69 582.63 75.9396 582.63 84.5V373.5C582.63 382.06 575.69 389 567.13 389H16C7.43957 389 0.5 382.06 0.5 373.5V16.75C0.5 8.18958 7.43959 1.25 16 1.25Z"
+    );
 }
+
+.img-gradiant {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.25) 100%);
+}
+
+.filter-heading {
+  @apply text-accentGreen text-lg font-medium
+}
+
+.checkbox{
+  accent-color: #463f3f;
+}
+
