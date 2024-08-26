@@ -17,7 +17,7 @@ import Button from '@/components/Button';
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
-const Page = ({ params }) => {
+const PropertyDescription = ({ params }) => {
   const property = properties.find((property) => property.id === params.id)
   console.log(property)
   if (!property) return <div>asdfgh</div>
@@ -145,4 +145,4 @@ const Page = ({ params }) => {
   )
 }
 
-export default Page
+export default PropertyDescription

@@ -14,11 +14,9 @@ import properties from '../../../propertyData';
 import Link from 'next/link';
 import Button from '@/components/Button';
 
-
-
 const montserrat = Montserrat({ subsets: ['latin'] })
 
-const Page = () => {
+const ListingPage = () => {
   const [filters, setFilters] = useState({
     propertyTypes: [],
     priceRange: [0, 100000],
@@ -224,4 +222,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default ListingPage
