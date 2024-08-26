@@ -18,7 +18,7 @@ import Button from '@/components/Button';
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
-const page = () => {
+const Page = () => {
   const [filters, setFilters] = useState({
     propertyTypes: [],
     priceRange: [0, 100000],
@@ -224,4 +224,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
